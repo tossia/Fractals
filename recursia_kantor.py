@@ -10,7 +10,7 @@ Call the function (left point + 2/3 full length, right point)Вызвать фу
 """
 
 import turtle
-# turtle.speed('fastest')
+# turtle.speed('fastest') - an option to move the turtle as crasy turtle
 win = turtle.Screen()
 
 l = 500
