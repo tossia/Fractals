@@ -1,5 +1,5 @@
 import turtle
-# turtle.speed('fastest')
+# turtle.speed('fastest') an option to move the turtle very fast
 turtle.left(180)
 turtle.penup()
 turtle.forward(200)
