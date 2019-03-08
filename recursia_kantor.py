@@ -1,12 +1,12 @@
 """Pseudocode
 Function (left_point, right_point) 
-    Нарисовать линию от левой до правой точки
-    Переместиться на следующий уровень
-    Рассчитать разницу между правой и левой точками
-    Нарисовать линию от левой точки до 1/3 от общей длины основной линии
-    Вызвать функцию (левая точка, левая точка + 1/3 общей длины)
-    Нарисовать линию от левой точки + 2/3 от общей длины
-    Вызвать фукцию (левая точка + 2/3 от общей длины, правая точка)
+Draw a line from left to right point -                      Нарисовать линию от левой до правой точки
+Move to next level -                                        Переместиться на следующий уровень
+Calculate the difference between right and left points      Рассчитать разницу между правой и левой точками
+Draw a line fron left point till 1/3 of full length -       Нарисовать линию от левой точки до 1/3 от общей длины основной линии
+Call the function (left point, left point + 1/3 full length Вызвать функцию (левая точка, левая точка + 1/3 общей длины)
+Draw a line from left point + 2/3 full length               Нарисовать линию от левой точки + 2/3 от общей длины
+Call the function (left point + 2/3 full length, right point)Вызвать фукцию (левая точка + 2/3 от общей длины, правая точка)
 """
 
 import turtle
